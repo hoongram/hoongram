@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-URL = "https://forum.netmarble.com/enn_ko/list/33/"
+URL = "https://forum.netmarble.com/enn_ko/list/33/1"
 
 r = requests.get(URL)
 soup = BeautifulSoup(r.text, "html.parser")
